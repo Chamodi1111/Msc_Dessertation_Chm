@@ -108,5 +108,5 @@ MSc Data Science – Cardiff Metropolitan University
 
 ## 📃 License
 
-This project is licensed under the [MIT License](LICENSE). Data is sourced from the Dubai Pulse Open Data initiative.
+This project is licensed under the [LICENSE_DATA.txt](LICENSE_DATA.txt). Data is sourced from the Dubai Pulse Open Data initiative.
 
