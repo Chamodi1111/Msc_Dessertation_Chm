@@ -23,13 +23,13 @@ The goal of this project is to build an accurate and interpretable machine learn
 
 ```plaintext
 📦 Project Root
-├── data/
+├── Required_Files/
 │   └── [Note: Raw dataset not included due to file size]
-├── notebooks/
-│   ├── 01_eda_preprocessing.ipynb
-│   ├── 02_model_training.ipynb
-│   ├── 03_area_specific_models.ipynb
-│   └── 04_streamlit_dashboard_preview.ipynb
+├── Code/
+│   ├── Data_Cleaning_01.ipynb
+│   ├── Handling_Outliers_02.ipynb
+│   ├── Modal_Training_03.ipynb
+│   └── Modal_Training_Group_by_Area.ipynb
 ├── models_by_area/
 │   └── *.pkl (trained models per area)
 ├── streamlit_app/
@@ -37,7 +37,6 @@ The goal of this project is to build an accurate and interpretable machine learn
 ├── visuals/
 │   └── *.png (EDA and model evaluation graphs)
 ├── README.md
-└── requirements.txt
 ```
 
 ---
