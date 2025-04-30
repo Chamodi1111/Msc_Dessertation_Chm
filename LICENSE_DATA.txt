@@ -1,0 +1,10 @@
+Dubai Pulse Open Data License
+
+The data used in this project is sourced from the Dubai Pulse platform and is published under the Dubai Data Establishment's Open Data License.
+
+📄 License Document:
+https://www.dubaipulse.gov.ae/docs/DDE%20_%20DRAFT_Open_Data%20Licence_LONG_Form_English%203.pdf
+
+Users are free to use, share, and adapt the data provided they comply with the terms specified in the license document above.
+
+This license applies only to the data. The code in this repository is licensed under the MIT License.
