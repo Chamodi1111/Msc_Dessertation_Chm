@@ -38,3 +38,76 @@ The goal of this project is to build an accurate and interpretable machine learn
 │   └── *.png (EDA and model evaluation graphs)
 ├── README.md
 └── requirements.txt
+```
+
+---
+
+## ⚠️ Data Availability
+
+> **Note**: Due to GitHub's file size limitations, the raw dataset (`~1M+ records`) from Dubai Pulse is **not included** in this repository.
+
+To replicate the results:
+
+1. Visit: [https://www.dubaipulse.gov.ae/](https://www.dubaipulse.gov.ae/)
+2. Search for **Dubai Land Department Property Transactions** dataset.
+3. Download and save the data in the `/data/` directory.
+4. Follow the preprocessing steps in the notebooks to clean and transform the data.
+
+---
+
+## 🚀 Running the Streamlit Dashboard
+
+```bash
+cd streamlit_app
+streamlit run app.py
+```
+
+The dashboard will allow you to:
+- Select an area
+- Input property details
+- View predicted price and contributing features
+
+---
+
+## 📊 OverModel Performance Summary
+
+| Metric        | Value    |
+|---------------|----------|
+| R² (Overall)  | 0.82     |
+| RMSE          | 4,049.93 |
+| MAE           | 3,496.35 |
+
+### 🔹 Area-Specific Performance (Sample)
+
+| Area                  | R²   | RMSE        | MAE         |
+|-----------------------|------|--------------|------------|
+| Business Bay          | 0.98 | 851,844.26   | 339,888.01 |
+| Zaabeel First         | 0.96 | 581,221.96   | 344,742.81 |
+| Al Barsha South Fifth | 0.78 | 185,739.39   | 109,956.81 |
+| Palm Jumeirah         | 0.75 | 2,569,151.96 | 886,473.72 |
+| Marsa Dubai           | 0.36 | 2,110,218.34 | 500,908.40 |
+
+> Some areas show lower R² due to complex price variance or sparse data. Area-wise modeling significantly improved overall accuracy and interpretability.
+
+
+---
+
+## 🔮 Future Improvements
+
+- Integrate SHAP for deeper explainability
+- Add time-based analysis (seasonality, holidays)
+- Extend dashboard with historical trends
+
+---
+
+## 🧑‍💻 Author
+
+**Chamodi Rasandika Dilrukshi Rajapakshe**  
+MSc Data Science – Cardiff Metropolitan University
+
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](LICENSE). Data is sourced from the Dubai Pulse Open Data initiative.
+
